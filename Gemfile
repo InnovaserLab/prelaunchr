@@ -2,15 +2,15 @@ source 'https://rubygems.org'
 
 ruby '2.3.0'
 
+gem 'execjs'
+gem 'therubyracer', :platforms => :ruby
+
 gem 'activeadmin', '1.0.0.pre2'
 gem 'delayed_job_active_record', '~> 4.0.3'
 gem 'devise'
 gem 'pg'
 gem 'rails', '4.2.5.2'
 gem 'unicorn'
-
-gem 'execjs'
-gem 'therubyracer', :platforms => :ruby
 
 # Gems used only for assets and not required
 # in production environments by default.
