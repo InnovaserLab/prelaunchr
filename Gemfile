@@ -9,6 +9,8 @@ gem 'pg'
 gem 'rails', '4.2.5.2'
 gem 'unicorn'
 
+gem 'execjs'
+gem 'therubyracer', :platforms => :ruby
 
 # Gems used only for assets and not required
 # in production environments by default.
